@@ -13,7 +13,7 @@ const data = [
     },
     {
         name: 'Hitesh Basnet',
-        homework: 'done'
+        homework: 'undone'
     }
 ]
 
