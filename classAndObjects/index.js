@@ -1,7 +1,7 @@
 // Here we can find why we have to user super function
 class First {
     constructor() {
-        this.name = 'Ramesh';
+       this.name = 'Ramesh';
     }
     printTheName() {
         console.log(this.name);
@@ -21,5 +21,7 @@ class Second extends First{
 
 
 const CallFirst = new Second();
-// console.log (callFirst.First.printTheName())
+// This will give you undefined 
+// console.log (CallFirst.printThesurName())    
+CallFirst.printThesurName()
 CallFirst.printTheName()
